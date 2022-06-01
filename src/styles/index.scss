@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', 'Comic Sans MS', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.app {
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+  .app-form {
+    margin: 30px 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      color: #1976d3;
+    }
+  }
+}
